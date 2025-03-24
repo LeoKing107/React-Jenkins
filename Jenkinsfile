@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                sh '/home/hunter/.nvm/versions/node/v23.4.0/bin/npm'
             }
         }
     }
